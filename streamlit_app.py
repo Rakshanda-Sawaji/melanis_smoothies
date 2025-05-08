@@ -43,3 +43,5 @@ if ingredients_list:
     
 cnx = st.connection("snowflake")
 session = cnx.session()
+st.secrets
+
